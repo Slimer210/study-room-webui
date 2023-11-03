@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+html {
+  @apply text-white;
+}
+
+.drawer-side > .menu {
+  @apply !p-4 gap-y-8 w-fit text-3xl text-center items-center;
+}
+
+.stat {
+  @apply gap-y-1;
+}
+
+.stat > .stat-title {
+  @apply text-white ;
+}
+
+.stat > .stat-value {
+  @apply text-white text-4xl font-extrabold;
+}
+
+.stat > .stat-desc {
+  @apply text-white ;
+}
+
+h1 {
+  @apply text-5xl font-bold;
+}
+h2 {
+  @apply text-4xl;
+}
+h3 {
+  @apply text-3xl;
+}
+h4 {
+  @apply text-2xl;
+}
+h5 {
+  @apply text-xl;
+}
+h6 {
+  @apply text-lg;
+}
