@@ -1,8 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 html {
   @apply text-white;
@@ -15,6 +15,23 @@ html {
 .stat {
   @apply gap-y-1;
 }
+
+.table > thead {
+  @apply text-base text-gray-400 border-none;
+}
+
+.table > tbody {
+  @apply text-white font-normal tracking-wide text-xl border-none;
+}
+
+.table > tbody > tr {
+  @apply border-none;
+}
+
+.table > tbody > tr > td {
+  @apply border-none text-base;
+}
+
 
 .stat > .stat-title {
   @apply text-white ;
